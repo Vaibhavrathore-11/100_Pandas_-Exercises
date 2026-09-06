@@ -1,0 +1,13 @@
+# dropna()
+import pandas as pd
+df = pd.read_csv("industry.csv" , sep="\t")
+print(df)
+'''df = df.dropna() # drop/remove null rows
+print(df)
+df1 = df.dropna(axis = 1) # column drop
+print(df1)'''
+
+#fillna
+age_mean = df["Age"].mean()
+df["Age"] = df["Age"].fillna(age_mean)
+print(df[["Name" , "Age"]])
