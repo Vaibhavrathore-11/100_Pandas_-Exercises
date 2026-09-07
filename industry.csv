@@ -1,5 +1,5 @@
 Student_ID	Name	Age	Gender	City	Marks	Email
-101	Rahul Sharma	21	Male	Indore	78	rahul@gmail.com
+101	Rahul Sharma	21	Male	Indore	78
 102	 Priya Verma	22	Female	Bhopal	85	priya@gmail.com
 103	Amit Singh 		Male	Delhi	90	amit@gmail.com
 104	Sneha Patel	20	Female	indore		sneha@gmail.com
@@ -50,3 +50,4 @@ Student_ID	Name	Age	Gender	City	Marks	Email
 149	Nikita Singh	20	FEMALE	Bhopal	87	nikita@gmail.com
 150	Sameer Jain	25	MALE	Delhi	62	sameer@gmail.com
 150	Sameer Jain	25	MALE	Delhi	62	sameer@gmail.com
+131	Rahul Sharma	21	Male	Indore	78	rahul@gmail.com
