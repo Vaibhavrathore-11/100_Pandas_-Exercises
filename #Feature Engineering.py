@@ -20,3 +20,19 @@ df = pd.DataFrame(data)
 print(df)
 df["Result"] = df["Marks"].apply(lambda x:"pass" if x >= 40 else "Fail")
 print(df)
+
+
+
+
+import pandas as pd
+df = pd.read_csv("raw_data.csv")
+print(df)
+df["New_income"] = df["income"] * 1.10
+print(df)
+
+
+import pandas as pd 
+df1 = pd.read_csv("students1.csv")
+print(df1)
+df1["New Salary"] = df1["Salary"] * 1.10
+print(df1)

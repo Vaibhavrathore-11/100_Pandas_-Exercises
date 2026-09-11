@@ -32,3 +32,36 @@ df3 ["City"]= df3["City"].str.upper()
 df3 ["Department"] = df3["Department"].str.lower()
 
 print(df3)
+
+
+
+#string Transformation 
+
+import pandas as pd 
+data = {
+    "Name" : ["amit", "Rahul", "shyam", "tenser"]
+}
+str = pd.DataFrame(data)
+print(str)
+
+str["Name"] = str["Name"].str.upper()
+print(str)#upper case me convert ke liye
+
+
+str["Name"] = str["Name"].str.lower()
+print(str)#upper case me convert ke liye
+
+str["Name"] = str["Name"].str.title()
+print(str)#title case me convert ke liye
+
+str["Name"] = str["Name"].str.capitalize()
+print(str)#capitalize case me convert ke liye
+
+
+#String replace
+import pandas as pd
+str1 = pd.read_csv("raw_data.csv")
+print(str1)
+str1["country"] = str1["country"].replace("USA","Russia")
+str1["name"] = str1["name"].str.replace("John Doe", "Anii")
+print(str1)
