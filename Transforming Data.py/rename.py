@@ -7,7 +7,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-df = df.rename(columns = {"Salary" : "income"}) # columns rename karna [df.rename(columns)]
+df = df.rename(columns = {"Salary" : "income"}) # columns rename karna [df.rename(columns)] 
 
 df = df.rename(columns = {"Name": "Employee_Name"})
 print(df)
