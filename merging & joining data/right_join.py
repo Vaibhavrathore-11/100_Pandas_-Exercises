@@ -13,6 +13,7 @@ df_departments = pd.DataFrame({
     "Location": ["Indore","Bhopal","indore","Ujjain"]
 })
 
+
 value = pd.merge(df_departments,df_employees,on="department_id",how="right")
 print(df_employees)
 print(df_departments)
