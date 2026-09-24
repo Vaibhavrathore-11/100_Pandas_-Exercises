@@ -10,4 +10,4 @@ df2 = pd.DataFrame({
     "sql": [23,45,78]
 })
 value = pd.concat([df1,df2], axis=1)
-print(value)
+print(value) #column
